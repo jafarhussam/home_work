@@ -6,8 +6,8 @@
 //once assigned the type cannot be changed
 //Example
 void main() {
-  var age = 16; // inferred as int
-  age = 'jafar'; // ❌ Error: can't assign String to int
+  var xValue = 16; // inferred as int
+  xValue = 'jafar'; // ❌ Error: can't assign String to int
 
   //dynamic is a weak type of data
   //The type is not fixed so it can change at runtime.
